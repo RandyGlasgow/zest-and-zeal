@@ -30,7 +30,7 @@ export default function RootLayout({
     <ConvexAuthNextjsServerProvider>
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-tr from-purple-50/50 to-background h-screen`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-tr from-purple-50/50 to-background min-h-screen`}
         >
           <ConvexClientProvider>{children}</ConvexClientProvider>
         </body>
